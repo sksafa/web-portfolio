@@ -4,6 +4,9 @@ body{
     margin: 0;
     padding: 0;
 }
+body p{
+    opacity: 0.8;
+}
 .name-heighlight{
     color: orange;
 }
@@ -34,12 +37,20 @@ section{
 }
 .link_button{
     text-decoration: none;
-    background-image:linear-gradient(45deg, lightSalmon, Tomato);
+    background-image: linear-gradient(45deg, lightSalmon, Tomato);
     padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 14px;
+    
 }
+.link_button:hover{
+    background-image: linear-gradient(45deg, rgb(235, 12, 131), rgb(230, 52, 7));
+    transition: 0.5s;
+}
+
 .experience{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
